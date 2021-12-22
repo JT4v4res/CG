@@ -27,6 +27,9 @@ def vel(vell):
 
     spd_ang += vell * pi / 16  # The new speed
 
+    if spd_ang < 0:
+        spd_ang = 0.001
+
 
 # Function that makes the animation of rotation
 def rot(ang):
