@@ -9,4 +9,4 @@ Languages used here are
 
 libraries used here are:
 - OpenGL
-- glut
+- freeglut
