@@ -103,7 +103,7 @@ def display():
 
 # Function that handle keyboard events
 def key_f(key, x, y):
-    # Esc
+    # End
     if key == GLUT_KEY_END:
         os._exit(0)
     # Arrow Up
